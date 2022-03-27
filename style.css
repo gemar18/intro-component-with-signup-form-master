@@ -17,10 +17,8 @@
 body {
     background-color: var(--Red);
     font-family: 'Poppins', sans-serif;
-
     font-size: 16px;
-    background-image: url("../images/bg-intro-desktop.png");
-
+    background-image: url("images/bg-intro-desktop.png");
 }
 
 .container {
@@ -30,7 +28,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
+
     margin: 105px auto;
 }
 
@@ -40,11 +38,12 @@ body {
 }
 
 .container-text h1 {
-    font-size: 43px;
+    font-size: 45px;
+  
 }
 
 .container-text p {
-    margin-top: 25px;
+    margin-top: 23px;
     font: size 18px;
     line-height: 2em;
 }
@@ -56,7 +55,7 @@ body {
     padding: 1rem 1.8rem;
     color: white;
     text-align: center;
-    box-shadow: 0px 8px 0px var(--GrayishBlue);
+    box-shadow: 0px 8px 0px rgba(158, 109, 109, 0.767);
     margin-bottom: 25px;
     width: 85%;
 }
@@ -75,10 +74,10 @@ body {
 
 .container-form input {
     width: 90%;
-    height: 40px;
+    height: 50px;
     margin-left: 20px;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 8px;
 
 }
 
@@ -118,7 +117,7 @@ input::placeholder {
     cursor: pointer;
     margin-left: 20px;
     width: 90%;
-    height: 38px;
+    height: 50px;
 }
 
 .container-form p {
@@ -162,19 +161,3 @@ input::placeholder {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
